@@ -10,6 +10,7 @@ gem 'jquery-rails', '3.0.4'
 gem 'turbolinks',   '1.1.1'
 gem 'jbuilder',    '1.0.2'
 gem 'rails-html-sanitizer', '1.0.1'
+gem 'bootstrap-sass'
 
 group :doc do 
   gem 'sdoc',  '0.4.0',  require:false
