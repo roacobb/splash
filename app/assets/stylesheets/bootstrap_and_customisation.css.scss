@@ -1,5 +1,12 @@
 @import 'bootstrap';
 
+body {
+	background: url('mac-glasses.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
 .container {
 	width: 350px;
 	margin: 100px auto;
