@@ -22,4 +22,8 @@ test:
 
 production:
   <<: *default
-  database: db/production.postgresql
+  encoding: utf8
+  database: splash
+  username: deployer
+  password: hik21mah
+

@@ -11,6 +11,8 @@ gem 'turbolinks',   '1.1.1'
 gem 'jbuilder',    '1.0.2'
 gem 'rails-html-sanitizer', '1.0.1'
 gem 'bootstrap-sass'
+gem 'pg'
+gem 'unicorn'
 
 group :doc do 
   gem 'sdoc',  '0.4.0',  require:false
@@ -23,6 +25,5 @@ group :development,  :test do
 end
 
 group :production do 
-  gem 'pg',  '0.15.1'
   gem 'rails_12factor',  '0.0.2'
 end
